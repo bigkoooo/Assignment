@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 설문조사 -->
+    <form>
+        <h3>설문조사</h3> 
+        <label for="user-name">이름</label> 
+        <input type="name" name="" id="user-name"><br>
+        <label for="user-email">이메일
+        <input type="email" name="" id="user-email" placeholder="love@exemple.com">
+        <h4>나이</h4>
+        <input type="radio" name="age" value="teen" id="teen"><label for="teen">10대</label>
+        <input type="radio" name="age" value="twen" id="twen"><label for="twen">20대</label>
+        <input type="radio" name="age" value="thir" id="thir"><label for="thir">30대</label>
+        <input type="radio" name="age" value="fort" id="fort"><label for="fort">40대</label>
+        <input type="radio" name="age" value="fift" id="fift"><label for="fift">50대</label>
+        <input type="radio" name="age" value="sixt" id="sixt"><label for="sixt">60대 이상</label>
+        
+        <h4>원하는 강의 (복수응답가능합니다.)</h4>
+        <input type="checkbox" name="html" value="html" checked>html
+        <input type="checkbox" name="javascript" value="javascript">javascript
+        <input type="checkbox" name="css" value="css">css <br><br>
+        
+        <textarea placeholder="하고 싶은 말을 써주세요."
+                cols="70" rows="10"></textarea>
+                <input type="submit" value="제출">
+            
+        </form>
+</body>
+</html>

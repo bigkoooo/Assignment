@@ -1,0 +1,22 @@
+.box::before {
+    content: "택시"
+}
+
+.box::after {
+    content: "빨리"
+}
+
+.box::before {
+    content: '택시~';
+    color: red;
+}
+
+.box::after {
+    content: "빨리!";
+    color: blue !important;
+}
+
+.box::after {
+    content: "빨리!";
+    color: green;
+}
